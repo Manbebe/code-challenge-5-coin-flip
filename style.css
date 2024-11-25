@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: brown;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(
+        135deg,
+        #f4fb8f,
+        #70ff6b
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button{
+    background-color: #3c56d8;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s
+            ease-in-out,
+        transform 0.2s ease-in-out;
+    width: 80%;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-image: linear-gradient(
+        45deg,
+        black,
+        #4e6bff,
+        black
+    );
+    transform: scale(1.05);
+}
