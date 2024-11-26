@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: brown;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -10,8 +9,11 @@ body {
     font-family: "Arial", sans-serif;
     background: linear-gradient(
         135deg,
-        #f4fb8f,
-        orange
+        black,
+        grey,
+        grey,
+        grey,
+        black
     );
     display: flex;
     justify-content: center;
