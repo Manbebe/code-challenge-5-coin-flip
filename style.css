@@ -152,3 +152,15 @@ h2 {
     font-size: 24px;
     margin: 10px 0;
 }
+
+
+.score{
+    display: flex;
+    border: grey solid 2px;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    background-color: darkgray;
+    border-radius: 10px;
+    margin: 0 auto;
+}
